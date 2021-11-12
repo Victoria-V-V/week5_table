@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            background: beige;
+            color: black;
+        }
+
+        .page {
+            display: table;
+            height: 100%;
+            width: 100%;
+            text-align: center;
+        }
+
+        .header {
+            display: table-row;
+            height: 1px;
+            background: rgb(0, 238, 255);
+        }
+
+        .main {
+            display: table;
+            height: 100%;
+            width: 100%;
+        }
+
+        .section {
+            display: table-cell;
+            width: 100px;
+            background: rgb(143, 143, 196);
+        }
+
+        .center {
+            background: rgb(90, 90, 228);
+        }
+
+        .footer {
+            display: table-row;
+            height: 1px;
+            background: green;
+            color: beige;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="page">
+        <div class="header">header</div>
+        <div class="main">
+            <div class="section">left</div>
+            <div class="center">center</div>
+            <div class="section">right</div>
+        </div>
+        <div class="footer">footer</div>
+    </div>
+
+</body>
+
+</html>
